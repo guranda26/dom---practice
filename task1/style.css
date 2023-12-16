@@ -1,0 +1,51 @@
+body {
+  margin: auto;
+}
+.container {
+  width: 500px;
+  padding: 50px 0;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 30px;
+  background-color: rgb(207, 179, 179);
+}
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 100vh;
+  display: none;
+}
+
+.container p {
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(220, 65, 65);
+}
+
+.container button,
+.container input {
+  padding: 5px 10px;
+}
+.container button {
+  background-color: rgba(35, 124, 94, 0.433);
+  color: rgb(67, 66, 66);
+  font-weight: bold;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.section .open-modal {
+  margin: 20px;
+  width: 200px;
+  padding: 15px 10px;
+  font-size: 20px;
+  background-color: rgb(154, 58, 58);
+  color: bisque;
+}
