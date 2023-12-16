@@ -1,0 +1,27 @@
+section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+input,
+button {
+  /* width: 200px; */
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+button {
+  font-size: 18px;
+  padding: 8px 15px;
+  background-color: rgb(158, 158, 187);
+}
+
+div {
+  border: 2px solid black;
+  display: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
